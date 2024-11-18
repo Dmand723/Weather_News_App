@@ -1,5 +1,5 @@
 body {
-  background: rgb(197, 190, 190);
+  background: rgb(84, 206, 237);
   color: #111;
   padding: 4em;
   font-family: sans-serif;
@@ -16,7 +16,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #cecece;
+  background-color: rgb(9, 188, 233);
 }
 
 li {
@@ -37,7 +37,7 @@ li a:hover:not(.active) {
 
 .main-section {
   padding: 2em;
-  background: #cecece;
+  background: rgb(9, 188, 233);
   max-width: 100%;
 }
 /*
@@ -68,7 +68,7 @@ hr {
 }
 .page {
   padding: 2em;
-  background: #cecece;
+  background: rgb(9, 188, 233);
   max-width: 100%;
 }
 .archive {
@@ -134,7 +134,8 @@ hr {
   justify-content: space-between;
 }
 .curret-section img {
-  flex-basis: ;
+  margin-left: auto;
+  margin-right: auto;
 }
 .article-five-day p {
   display: inline-block;
