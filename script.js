@@ -104,7 +104,7 @@ fetch(NewsURL)
       let header = document.createElement("h3");
       let headerLink = document.createElement("a");
       headerLink.setAttribute("href", articles[i].url);
-      headerLink.textContent = articles[0].title;
+      headerLink.textContent = articles[i].title;
       header.appendChild(headerLink);
       article.appendChild(header);
       //create article desc
